@@ -7,7 +7,7 @@
 | Name | GitHub | Main responsibilities |
 |------|--------|-----------------------|
 | Gregor Gegič | @gegicgregor | tba |
-| TODO-AUTHOR | @… | … |
+| Jaša Žabkar | @Asaj79 | tba |
 
 <!-- Lab repository: one row. Project repository: both team members. -->
 
