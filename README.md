@@ -6,7 +6,7 @@
 
 | Name | GitHub | Main responsibilities |
 |------|--------|-----------------------|
-| TODO-AUTHOR | @… | … |
+| Gregor Gegič | @gegicgregor | tba |
 | TODO-AUTHOR | @… | … |
 
 <!-- Lab repository: one row. Project repository: both team members. -->
