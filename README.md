@@ -1,6 +1,6 @@
 # Project name
 
-> One-sentence description of what your system does and for whom.
+> Service for creation and reservation of sports facilities
 
 ## Authors
 
