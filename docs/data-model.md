@@ -4,29 +4,55 @@ Replace the example with your own model. Requirements: at least 3 entities, one 
 
 ```mermaid
 erDiagram
-    USER ||--o{ ORDER : places
-    ORDER ||--|{ ORDER_ITEM : contains
-    PRODUCT ||--o{ ORDER_ITEM : "appears in"
+    User ||--o{ Location : "has"
+    User ||--o{ Reservation : "makes"
+    Location ||--o{ Court : "contains"
+    Court ||--o{ Reservation : "has"
+    Court ||--o{ Court_Sport : "has"
+    Sport ||--o{ Court_Sport : "has"
 
-    USER {
-        int id PK
-        string email UK
-        string role
+    User {
+        INT id PK
+        VARCHAR(45) email
+        VARCHAR(255) password
+        VARCHAR(45) fname
+        VARCHAR(45) lname
     }
-    ORDER {
-        int id PK
-        int userId FK
-        datetime createdAt
+
+    Location {
+        INT id PK
+        INT street_number
+        VARCHAR(255) street_name
+        VARCHAR(255) city
+        INT post_code
+        INT User_id FK
     }
-    ORDER_ITEM {
-        int orderId PK, FK
-        int productId PK, FK
-        int quantity
+
+    Reservation {
+        INT id PK
+        TIME time
+        DATE date
+        INT User_id FK
+        INT Court_id FK
     }
-    PRODUCT {
-        int id PK
-        string name
-        decimal price
+
+    Court {
+        INT id PK
+        VARCHAR(45) name
+        TIME open
+        TIME close
+        INT limit
+        INT Location_id FK
+    }
+
+    Sport {
+        INT id PK
+        VARCHAR(255) name
+    }
+
+    Court_Sport {
+        INT Sport_id PK,FK
+        INT Court_id PK,FK
     }
 ```
 
