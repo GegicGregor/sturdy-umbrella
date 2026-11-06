@@ -4,10 +4,10 @@
 
 ## Authors
 
-| Name | GitHub | Main responsibilities |
-|------|--------|-----------------------|
-| Gregor Gegič | @gegicgregor | tba |
-| Jaša Žabkar | @Asaj79 | tba |
+| Name         | GitHub       | Main responsibilities |
+|--------------|--------------|-----------------------|
+| Gregor Gegič | @gegicgregor | Mobile app, Database  |
+| Jaša Žabkar  | @Asaj79      | Web front end, API    |
 
 <!-- Lab repository: one row. Project repository: both team members. -->
 
@@ -37,12 +37,12 @@ flowchart LR
 
 | Part | Technology |
 |------|------------|
-| Backend | … |
-| Web front end | … |
-| Database | … |
-| Mobile | … |
-| Cloud | … |
-| LLM provider | … |
+| Backend | FastAPI |
+| Web front end | Rest |
+| Database | PostgreSQL |
+| Mobile | Rest Native |
+| Cloud  | tba |
+| LLM provider | tba |
 
 Reasons: see [docs/decisions/](docs/decisions/).
 
