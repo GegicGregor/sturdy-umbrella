@@ -60,7 +60,12 @@ erDiagram
 
 | Entity | Description | Important rules / constraints |
 |--------|-------------|-------------------------------|
-| | | |
+| User | Stores basic info for users |  |
+| Location | Stores basic info for locations | User_id represents the locations owner(user) |
+| Reservation |  |  |
+| Court |  |  |
+| Sport | Sports each court can be played on |  |
+| Court_Sport |  |  |
 
 ## Business rules
 <!-- e.g. "A room cannot have two bookings that overlap in time." -->
